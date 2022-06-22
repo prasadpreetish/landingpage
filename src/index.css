@@ -787,11 +787,13 @@ label {
     padding: 0rem 29rem;
   }
 }
-@media (max-width: 412px){
+@media (max-width: 413px){
 #my--second--hero--holder {
     justify-content: center;
     padding: 0rem 17rem;
-    font-size: 228%;
+    font-size: 170%;
+    /* background-size: cover; */
+    background-position-x: -51rem;
 }
 .featurecontainer{
   margin: 0rem;
@@ -833,8 +835,9 @@ label {
 }
 @media(max-width:415px){
   #my--second--hero--holder {
-    font-size: 223%;
-    padding: 0rem 22rem;
+    padding: 0rem 20rem;
+    background-size: cover;
+    background-position-x: -51rem;
 }
 #second--hero--holder{
   padding: 0rem;
