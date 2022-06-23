@@ -492,6 +492,10 @@ nav{
   font-size: 2rem;
 }
 .feedcard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 1%;
   border-color: rgb(215, 211, 211);
   border-width: fit-content;

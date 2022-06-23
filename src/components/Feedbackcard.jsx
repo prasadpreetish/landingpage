@@ -6,7 +6,7 @@ const Feedbackcard = (props) => {
     <div className="feedcard">
         <img src={props.dpimgsrc} alt="girl" className="dp" />
         <div className="dp--review">
-Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies.
+Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, outsource companies.
         </div>
         <div className="dp--name">{props.dpname}</div>
         <div className="dp--post faint--text" style={{fontSize:"0.75rem"}}>{props.dppost}</div>
