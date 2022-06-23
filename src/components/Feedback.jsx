@@ -11,11 +11,10 @@ const Feedback = () => {
           <hr className="red--text" />
         </div>
         <div className="feedback--scroll">
-          <Feedbackcard />
-          <Feedbackcard />
-          <Feedbackcard />
-          <Feedbackcard />
-          <Feedbackcard />
+          <Feedbackcard dpimgsrc="https://www.themezaa.com/html/pofo/images/avtar-14.jpg" dpname="SHOKO MUGIKURA" dppost="DESIGN MANAGER"/>
+          <Feedbackcard dpimgsrc="https://www.themezaa.com/html/pofo/images/avtar-13.jpg" dpname="ALEXANDER HARVARD" dppost="CO FOUNDER/CEO"/>
+          <Feedbackcard dpimgsrc="https://www.themezaa.com/html/pofo/images/avtar-15.jpg" dpname="LINDSAY SWANSON" dppost="CREATIVE DIRECTOR"/>
+          <Feedbackcard dpimgsrc="https://www.themezaa.com/html/pofo/images/avtar-16.jpg" dpname="HERMAN MILLER" dppost="CREATIVE DIRECTOR"/>
         </div>
       </div>
 
